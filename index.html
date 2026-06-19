@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Al Noor Attar (النور للعطور) - Luxury Arabic Fragrance Startup</title>
+    
+    <!-- SEO & Metadata -->
+    <meta name="description" content="Immerse yourself in liquid history. Al Noor Attar curates 100% pure, alcohol-free Oud, Musk, and Rose Attars hand-distilled for modern luxury." />
+    <meta name="keywords" content="Attar, Perfume, Oud, Musk, Arabic Scent, Luxury Scent, Rose Perfume, Al Noor" />
+    <meta name="author" content="Al Noor Heritage House" />
+    
+    <!-- Open Graph (Facebook / LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Al Noor Attar (النور للعطور) - Luxury Arabic Fragrance" />
+    <meta property="og:description" content="Discover pure essential oils, 60-Hour longevity, and centuries of Arabian distilling legacy." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=800&q=80" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Al Noor Attar (النور للعطور)" />
+    <meta property="twitter:description" content="Experience solvent-free, pure botanical Arabian Attars." />
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=800&q=80" />
+
+    <!-- Style Links -->
+    <link rel="stylesheet" href="/css/variables.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
+    <link rel="stylesheet" href="/css/home.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+  </head>
+  <body class="dark-mode">
+
+    <!-- Loading Animation screen -->
+    <div class="loader-screen">
+      <div class="loader-logo">
+        AL NOOR ATTAR
+        <span>النور للعطور</span>
+      </div>
+      <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Sticky Glass navbar -->
+    <header class="header-nav">
+      <div class="nav-container">
+        <!-- Logo -->
+        <a href="/index.html" class="logo-area" id="brand-logo" title="Al Noor Home">
+          <svg viewBox="0 0 100 100" class="gold-text">
+            <polygon points="50,5 63,35 95,35 70,55 80,85 50,70 20,85 30,55 5,35 37,35" fill="none" stroke="currentColor" stroke-width="3" stroke-miterlimit="10"/>
+            <circle cx="50" cy="50" r="14" fill="none" stroke="currentColor" stroke-width="2"/>
+            <polygon points="50,15 57,40 82,40 62,54 70,78 50,65 30,78 38,54 18,40 43,40" fill="none" stroke="currentColor" stroke-width="1"/>
+          </svg>
+          <div class="brand-text">
+            AL NOOR <span class="brand-arabic">النور</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="nav-links">
+          <a href="/index.html" class="nav-item active" data-i18n="nav_home">Home</a>
+          <a href="/features.html" class="nav-item" data-i18n="nav_features">Features</a>
+          <a href="/pricing.html" class="nav-item" data-i18n="nav_pricing">Pricing</a>
+          <a href="/contact.html" class="nav-item" data-i18n="nav_contact">Contact</a>
+        </nav>
+
+        <div class="nav-controls">
+          <div class="lang-switch-luxury">
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="bn">BN</button>
+          </div>
+
+          <!-- Theme Switcher -->
+          <button class="icon-btn theme-toggle-btn" aria-label="Toggle visual theme" title="Toggle Theme">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+          </button>
+
+          <button class="hamburger" aria-label="Toggle drawer layout">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer">
+      <div class="mobile-drawer-links">
+        <a href="/index.html" class="mobile-nav-item active" data-i18n="nav_home">Home</a>
+        <a href="/features.html" class="mobile-nav-item" data-i18n="nav_features">Features</a>
+        <a href="/pricing.html" class="mobile-nav-item" data-i18n="nav_pricing">Pricing</a>
+        <a href="/contact.html" class="mobile-nav-item" data-i18n="nav_contact">Contact</a>
+      </div>
+    </div>
+    <div class="backdrop"></div>
+
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero-sec">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content anim-fade-in-up">
+            <span class="hero-tag" data-i18n="hero_title">The Soul of Arabian Royalty</span>
+            <h1 class="hero-title">
+              Al Noor Attar
+              <span class="gold-text">النور للعطور</span>
+            </h1>
+            <p class="hero-subtitle" data-i18n="hero_subtitle">
+              Handcrafted pure oil Attars inspired by centuries of heritage, designed for the modern connoisseur.
+            </p>
+            <div class="hero-actions">
+              <a href="#signature-collection" class="btn btn-primary" data-i18n="hero_cta_shop">Explore Collection</a>
+              <a href="#brand-legacy" class="btn btn-secondary" data-i18n="hero_cta_story">Our Legacy</a>
+            </div>
+          </div>
+
+          <div class="hero-visual anim-fade-in">
+            <div class="hero-circle-aura">
+              <div class="hero-circle-inner"></div>
+            </div>
+            <div class="hero-img-container">
+              <img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=600&q=80" alt="Al Noor Royal Scent Vessel" class="hero-rendered" referrerpolicy="no-referrer">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== BRAND STORY SECTION ==================== -->
+    <section class="section section-alt" id="brand-legacy">
+      <div class="container">
+        <div class="story-grid">
+          <!-- Left: image offset layouts -->
+          <div class="story-visual reveal">
+            <div class="story-img-card">
+              <img src="https://images.unsplash.com/photo-1547887537-6158d64c35b3?w=500&q=80" alt="Artisanal raw resins distilling" referrerpolicy="no-referrer">
+            </div>
+            <div class="story-img-card offset">
+              <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=500&q=80" alt="Harvested roses extraction" referrerpolicy="no-referrer">
+            </div>
+          </div>
+
+          <div class="story-content reveal delay-200">
+            <span class="section-tag" data-i18n="story_heading">The Al Noor Legacy</span>
+            <h2 class="section-title" data-i18n="story_subheading">Brewed in Tradition, Aged in Splendor</h2>
+            <p class="story-text" data-i18n="story_text_1">
+              Al Noor Attar traces its lineage to the ancient alleys of Old Arabia, where master perfumers captured the essence of the sun, desert rains, and night-blooming jasmine in pure, concentrated nectar. Every drop is a symphony of rare botanicals and precious oils.
+            </p>
+            <p class="story-text" data-i18n="story_text_2">
+              Our formula remains strictly solvent-free, containing zero alcohol. We blend rare Dehn Al Oud, Taif Rose, and Ambergris, aging them in oak barrels to release deep, evocative notes that linger for days.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== WHY CHOOSE US ==================== -->
+    <section class="section">
+      <div class="container text-center">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="why_title">The Pillars of Al Noor</span>
+          <h2 class="section-title" data-i18n="why_subtitle">Why noble houses select our house of fragrance</h2>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-card reveal">
+            <div class="why-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-droplet"><path d="M12 22a7 7 0 0 0 7-7c0-4.3-7-11-7-11S5 10.7 5 15a7 7 0 0 0 7 7z"/></svg>
+            </div>
+            <h3 class="why-card-title" data-i18n="why_card_1_title">100% Pure Oils</h3>
+            <p class="why-card-desc" data-i18n="why_card_1_desc">Zero alcohol, zero chemical carriers. Rich, viscous attar that thrives on skin warmth.</p>
+          </div>
+
+          <div class="why-card reveal delay-100">
+            <div class="why-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hourglass"><path d="M5 2h14"/><path d="M5 22h14"/><path d="M19 2v4c0 1.38-1.13 2.5-2.5 2.5a2.5 2.5 0 0 1 0 5c1.37 0 2.5 1.13 2.5 2.5v4"/><path d="M5 2v4c0 1.38 1.13 2.5 2.5 2.5a2.5 2.5 0 0 1 0 5C6.13 13.5 5 14.63 5 16v4"/></svg>
+            </div>
+            <h3 class="why-card-title" data-i18n="why_card_2_title">60-Hour Longevity</h3>
+            <p class="why-card-desc" data-i18n="why_card_2_desc">Our molecular structure binds with the skin, projecting notes gracefully for over two days.</p>
+          </div>
+
+          <div class="why-card reveal delay-200">
+            <div class="why-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 1 9.8a7 7 0 0 1-9 8.2Z"/><path d="M9 11.3c0-3.8 2.2-7 5.5-8.5"/></svg>
+            </div>
+            <h3 class="why-card-title" data-i18n="why_card_3_title">Ethical Sourcing</h3>
+            <p class="why-card-desc" data-i18n="why_card_3_desc">Sustainably harvested Taif Rose and organically cultivated wild Oud, supporting local farmers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== SIGNATURE FEATURED PRODUCTS ==================== -->
+    <section class="section section-alt" id="signature-collection">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag" data-i18n="featured_title">Our Signature Creations</span>
+          <h2 class="section-title" data-i18n="featured_subtitle">Venture into the sensory treasures of the East</h2>
+        </div>
+
+        <div class="products-wrapper">
+          <div class="filter-bar reveal">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="oud">Oud / Woody</button>
+            <button class="filter-btn" data-filter="floral">Floral</button>
+            <button class="filter-btn" data-filter="earthy">Earthy</button>
+            <button class="filter-btn" data-filter="bestseller" data-i18n="nav_pricing">Bestsellers</button>
+          </div>
+
+          <div class="products-grid reveal">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== STATISTICS COUNTER SECTION ==================== -->
+    <section class="section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-num" data-target="15" data-suffix="+">0</div>
+            <span class="stat-label" data-i18n="stats_years">Years of Legacy</span>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num" data-target="48" data-suffix="+">0</div>
+            <span class="stat-label" data-i18n="stats_blends">Signature Blends</span>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num" data-target="24" data-suffix="">0</div>
+            <span class="stat-label" data-i18n="stats_countries">Global Boutiques</span>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num" data-target="9200" data-suffix="+">0</div>
+            <span class="stat-label" data-i18n="stats_clients">Royal Clientele</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== TESTIMONIALS SECTION ==================== -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag" data-i18n="bestsellers_title">The Royal Best Sellers</span>
+          <h2 class="section-title" data-i18n="bestsellers_subtitle">Highly coveted by connoisseurs worldwide</h2>
+        </div>
+
+        <div class="testi-grid reveal">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== FAQ ACCORDION SECTION ==================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header text-center col-max">
+          <span class="section-tag" data-i18n="faq_title">Frequently Consulted Questions</span>
+          <h2 class="section-title" data-i18n="faq_subtitle">Secrets of standard preservation and attar application</h2>
+        </div>
+
+        <div class="faq-list reveal">
+          <div class="faq-item">
+            <button class="faq-trigger">
+              <span data-i18n="faq_q1">How should I correctly apply pure Attar?</span>
+              <span class="faq-icon-shape">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-inner" data-i18n="faq_a1">
+                Apply a pulse drop using the glass wand on clean wrists. Warm the wrists together gently (do not rub harshly, as this breaks down the top notes) and tap onto the sides of the neck. You can also trace it along the collar of your clothes for a long-lasting aura.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger">
+              <span data-i18n="faq_q2">What is the difference between Attar and Eau de Parfum?</span>
+              <span class="faq-icon-shape">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-inner" data-i18n="faq_a2">
+                Standard perfumes (EDP) blend fragrance oils with alcohol carriers. Attar is a hyper-concentrated, pure botanical and organic essential oil distillate. It contains no alcohol, feels warm and smooth, and matches your personal skin chemistry to create a completely bespoke silage.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger">
+              <span data-i18n="faq_q3">Where do you source your Cambodian Oud?</span>
+              <span class="faq-icon-shape">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-inner" data-i18n="faq_a3">
+                We work directly with certified sustainable forestry projects in the Koh Kong region of Cambodia, ensuring every tree harvested is replanted and the oil undergoes traditional double-distillation over charcoal fire.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== CALL TO ACTION SECTION ==================== -->
+    <section class="cta-sec reveal">
+      <div class="container">
+        <div class="cta-wrap">
+          <h2 class="section-title" data-i18n="cta_title" style="font-size: 2.75rem;">Own An Undying Legacy</h2>
+          <p class="story-text" data-i18n="cta_desc" style="font-size: 1.1rem; max-width: 600px;">
+            Gift yourself or your beloved the crown jewel of Arabian artisanal perfumery.
+          </p>
+          <a href="/contact.html" class="btn btn-primary" data-i18n="cta_button" style="margin-top: 1rem;">Acquire Your Decant</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <div class="brand-logo gold-text">
+              <svg viewBox="0 0 100 100" style="height: 30px; width: 30px;">
+                <polygon points="50,5 63,35 95,35 70,55 80,85 50,70 20,85 30,55 5,35 37,35" fill="currentColor"/>
+              </svg>
+              AL NOOR <span style="font-family: var(--font-arabic); font-size: 1rem;">النور</span>
+            </div>
+            <p class="footer-tagline" data-i18n="footer_tagline">
+              Crafting liquid history, preserving royal olfactory heritage.
+            </p>
+            <div class="footer-socials">
+              <a href="#" class="social-link" aria-label="Facebook link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Instagram link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Twitter link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="footer-title" data-i18n="footer_quick">Quick Navigation</h4>
+            <ul class="footer-links" style="margin-top: 1rem;">
+              <li><a href="/index.html" class="footer-link-item" data-i18n="nav_home">Home</a></li>
+              <li><a href="/features.html" class="footer-link-item" data-i18n="nav_features">Features</a></li>
+              <li><a href="/pricing.html" class="footer-link-item" data-i18n="nav_pricing">Pricing</a></li>
+              <li><a href="/contact.html" class="footer-link-item" data-i18n="nav_contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-title" data-i18n="footer_contact_us">Contact Atelier</h4>
+            <ul class="footer-links" style="margin-top: 1rem;">
+              <li class="footer-link-item" data-i18n="contact_info_street">Level 4, Jamuna Future Park, Progoti Sarani, Baridhara</li>
+              <li class="footer-link-item" data-i18n="contact_info_city">Dhaka 1229, Bangladesh</li>
+              <li class="footer-link-item" data-i18n="contact_info_phone">+880 1712-345678</li>
+              <li class="footer-link-item" data-i18n="contact_info_email">info@alnoorattar.com</li>
+            </ul>
+          </div>
+
+          <div class="footer-newsletter">
+            <h4 class="footer-title" data-i18n="newsletter_title">Join The Inner Circle</h4>
+            <p class="newsletter-descr" data-i18n="newsletter_subtitle">
+              Subscribe to receive private invitations to new batch releases and select fragrance discoveries.
+            </p>
+            <form class="newsletter-form" onsubmit="event.preventDefault(); document.getElementById('nl-status').classList.add('success'); document.getElementById('nl-status').textContent= (document.documentElement.lang==='bn' ? 'স্বাগতম! আমন্ত্রণ পাঠানো হয়েছে।' : 'Welcome! Private invitation sent.'); this.reset();">
+              <input type="email" class="newsletter-input" required data-i18n="newsletter_placeholder" placeholder="Enter your email address...">
+              <button class="newsletter-btn" type="submit" data-i18n="newsletter_btn">Receive</button>
+            </form>
+            <div class="newsletter-status success" id="nl-status"></div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer-copy" data-i18n="footer_copy">
+            © 2026 Al Noor Attar. All Rights Reserved.
+          </p>
+          <div class="footer-bottom-links">
+            <a href="/404.html" class="footer-bottom-link">Privacy Policy</a>
+            <a href="/404.html" class="footer-bottom-link">Terms of Noble Craft</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- ==================== REUSABLE JS SYSTEM MODULES ==================== -->
+    <script src="/js/theme.js"></script>
+    <script src="/js/language.js" type="module"></script>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/animation.js"></script>
+    <script src="/js/counter.js"></script>
+    <script src="/js/faq.js"></script>
+    <script src="/js/scroll-progress.js"></script>
+    <script src="/js/app.js" type="module"></script>
+
+  </body>
+</html>

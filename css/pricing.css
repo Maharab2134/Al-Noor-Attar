@@ -1,0 +1,191 @@
+/* --- Pricing Collections Section --- */
+.price-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  align-items: stretch;
+}
+
+.price-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 4rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  position: relative;
+  transition: var(--transition-smooth);
+}
+
+.price-card:hover {
+  border-color: var(--gold-primary);
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+
+.price-card.popular {
+  border: 2px solid var(--gold-primary);
+  box-shadow: var(--shadow-gold);
+}
+
+.price-badge-ribbon {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  border-radius: var(--radius-full);
+}
+
+.price-card.popular .price-badge-ribbon {
+  background: var(--gold-primary);
+  color: #121212;
+}
+
+.price-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.price-sub {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  line-height: 1.4;
+  margin-top: -0.5rem;
+}
+
+.price-num-box {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+  margin: 0.5rem 0;
+}
+
+.price-val {
+  font-family: var(--font-display);
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--gold-primary);
+  line-height: 1;
+}
+
+.price-unit {
+  font-size: 1rem;
+  color: var(--text-light);
+}
+
+.price-size {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  background: var(--bg-secondary);
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-full);
+  display: inline-block;
+  align-self: flex-start;
+  color: var(--text-secondary);
+}
+
+.price-features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+  margin: 1.5rem 0;
+  flex-grow: 1;
+}
+
+.price-feat-item {
+  display: flex;
+  gap: 0.85rem;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.price-feat-item svg {
+  color: var(--gold-primary);
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+
+
+/* --- Royal Comparison Table --- */
+.compare-container {
+  margin-top: 6rem;
+}
+
+.compare-title-box {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.compare-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+}
+
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  min-width: 700px;
+}
+
+.compare-table th, 
+.compare-table td {
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.compare-table th {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.compare-table tr:last-child td {
+  border-bottom: none;
+}
+
+.compare-table td {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+.compare-table td:first-child {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.compare-table td.center {
+  text-align: center;
+}
+
+.compare-table svg {
+  color: var(--gold-primary);
+}
+
+.compare-table svg.cross {
+  color: var(--text-light);
+  opacity: 0.4;
+}

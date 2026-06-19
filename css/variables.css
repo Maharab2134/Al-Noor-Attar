@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Typography */
+  --font-display: 'Georgia', 'Cinzel', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-arabic: 'Amiri', serif;
+
+  /* Global Transitions */
+  --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: all 0.2s ease;
+
+  /* Global Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.12);
+  --shadow-gold: 0 8px 25px rgba(197, 160, 89, 0.25);
+
+  /* Border Radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+  
+  /* Z-index */
+  --z-back: -10;
+  --z-base: 1;
+  --z-nav: 100;
+  --z-popup: 200;
+  --z-loader: 1000;
+}
+
+/* Light Theme Variables */
+body.light-mode {
+  --bg-primary: #FAF8F5;      /* Imperial Alabaster Smooth White */
+  --bg-secondary: #F4EFE6;    /* Warm Soft Linen Cream */
+  --bg-card: #FFFFFF;         /* Pure Crystal Card Frame */
+  --bg-glass: rgba(250, 248, 245, 0.85); 
+  --border-color: rgba(197, 160, 89, 0.2); /* Soft Gold Border */
+  --border-focus: #c5a059;
+  
+  --text-primary: #1F1E1C;    /* Obsidian Soft Charcoal */
+  --text-secondary: #5C5953;  /* Drifting Amber Ground */
+  --text-light: #8C887E;      /* Dusty Desert Sand */
+  
+  --gold-primary: #c5a059;    /* Metallic Champagne Gold */
+  --gold-hover: #AA7C11;      /* Deep Roman Bronze Gold */
+  --gold-light: rgba(197, 160, 89, 0.08);
+  --gold-glow: rgba(197, 160, 89, 0.15);
+  
+  --feedback-success: #1E6B3A;
+  --feedback-error: #B22222;
+  
+  --mask-color: rgba(26, 25, 23, 0.4);
+}
+
+/* Dark Theme Variables */
+body.dark-mode {
+  --bg-primary: #0a0a0a;      /* Midnight Obsidian Black */
+  --bg-secondary: #0d0d0d;    /* Charcoal Sandstone */
+  --bg-card: #141414;         /* Solid Shadow Core Card */
+  --bg-glass: rgba(10, 10, 10, 0.85);
+  --border-color: rgba(197, 160, 89, 0.2); /* Incandescent Gold Outline */
+  --border-focus: #e5c78d;
+  
+  --text-primary: #f5f2ed;    /* Warm Linen Pure White */
+  --text-secondary: rgba(245,242,237,0.6);  /* Dusty Sand Misted Grey */
+  --text-light: rgba(245, 242, 237, 0.4);      /* Desert Silt */
+  
+  --gold-primary: #c5a059;    /* Lighter Sparkling Gold */
+  --gold-hover: #e5c78d;      /* Classic Gold */
+  --gold-light: rgba(197, 160, 89, 0.12);
+  --gold-glow: rgba(197, 160, 89, 0.3);
+  
+  --feedback-success: #2ECC71;
+  --feedback-error: #E74C3C;
+  
+  --mask-color: rgba(0, 0, 0, 0.85);
+}
