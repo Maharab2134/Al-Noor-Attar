@@ -1,0 +1,176 @@
+[
+  {
+    "id": "prod_1",
+    "name": "Dehn Al Oud Amiri",
+    "arabic_name": "دهن العود الأميري",
+    "price": 249,
+    "rating": 4.9,
+    "size": "12ml (1 Tola)",
+    "category": "Woody / Oud",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F61csiRWuA5L.jpg&f=1&nofb=1&ipt=b92d9129af7dcf45b764e46e7049c676d1e561a9d98bebe92b9707503cb28a91",
+    "gallery": [
+      "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=500&q=80",
+      "https://images.unsplash.com/photo-1547887537-6158d64c35b3?w=500&q=80",
+      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=500&q=80"
+    ],
+    "en": {
+      "title": "Dehn Al Oud Amiri",
+      "subtitle": "Imperial Cambodian Aged Oud",
+      "description": "Precious double-distilled Oud oil harvested from aged Cambodian Aquilaria trees. Deeply woody, honeyed leather accords with a warm, smoky, therapeutic dry-down that commands absolute respect.",
+      "notes": "Top: Wild Saffron, Warm Honey | Heart: Pure Cambodian Oud | Base: Tobacco, Dark Leather, Precious Wood"
+    },
+    "bn": {
+      "title": "দেহন আল উদ আমিরি",
+      "subtitle": "১০ বছরের পরিপক্ক কম্বোডিয়ান উদ",
+      "description": "কম্বোডিয়ার পরিপক্ক অ্যাকুইলারিয়া গাছ থেকে সংগৃহীত অত্যন্ত মূল্যবান এবং দ্বৈত-পাতিত উদ নির্যাস। বন্য জাফরান ও মধুর স্পর্শে তৈরি এই সুবাস আভিজাত্য এবং সর্বোচ্চ সম্মানের প্রতীক।",
+      "notes": "টপ: বন্য জাফরান, তাজা মধু | হার্ট: খাঁটি কম্বোডিয়ান উদ | বেস: তামাকের পাতা, চামড়ার নির্যাস, দামী কাঠ"
+    },
+    "tags": ["Oud", "Royal", "Woody"],
+    "is_bestseller": true
+  },
+  {
+    "id": "prod_2",
+    "name": "Ward Taifi Al Royal",
+    "arabic_name": "ورد طائفي الملكي",
+    "price": 179,
+    "rating": 5.0,
+    "size": "12ml (1 Tola)",
+    "category": "Floral",
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=500&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=500&q=80",
+      "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&q=80",
+      "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=500&q=80"
+    ],
+    "en": {
+      "title": "Ward Taifi Al Royal",
+      "subtitle": "The Sultan’s Rose Garden",
+      "description": "A rare floral marvel distilled exclusively from first-bloom Taif Roses handpicked at dawn. It takes 10,000 delicate pink petals to brew a single precious tola of this sweet, ethereal, and majestic oil.",
+      "notes": "Top: Morning Dew, Pink Pepper | Heart: Precious Taif Rose | Base: Soft Musk, Warm Sandalwood"
+    },
+    "bn": {
+      "title": "ওয়ার্দ তায়েফ আল রয়্যাল",
+      "subtitle": "সুলতানের গোলাপ বাগান",
+      "description": "ভোরে হাতে তোলা তায়েফ গোলাপের বিশেষ প্রথম সুবাস নির্যাস। মাত্র এক তোলা পবিত্র ও মিষ্টি তেল তৈরিতে প্রায় ১০,০০০ তাজা রক্তিম গোলাপের পাপড়ির প্রয়োজন হয় যা এর অনন্যতাকে প্রকাশ করে।",
+      "notes": "টপ: ভোরের শিশির কণা, গোলাপি গোলমরিচ | হার্ট: পবিত্র তায়েফ গোলাপ | বেস: নরম কস্তুরী, চন্দন কাঠ"
+    },
+    "tags": ["Floral", "Soft", "Majestic"],
+    "is_bestseller": true
+  },
+  {
+    "id": "prod_3",
+    "name": "Mukhallat Al Sultan",
+    "arabic_name": "مخلط السلطان",
+    "price": 199,
+    "rating": 4.8,
+    "size": "12ml (1 Tola)",
+    "category": "Amber / Spicy",
+    "image": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?w=500&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1547887537-6158d64c35b3?w=500&q=80",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&q=80",
+      "https://images.unsplash.com/photo-1528740561666-bd2479db0830?w=500&q=80"
+    ],
+    "en": {
+      "title": "Mukhallat Al Sultan",
+      "subtitle": "The Sovereign's Secret Elixir",
+      "description": "An opulent, mysterious blend featuring warm amber resins, Madagascar vanilla, Royal white musk, and spices. It reacts actively with your skin chemistry to project a sweet, commanding oriental trail.",
+      "notes": "Top: Cardamom, Bergamot | Heart: Saffron, White Oud | Base: Amber Resin, Madagascar Vanilla, Warm Musk"
+    },
+    "bn": {
+      "title": "মুখাল্লাত আল সুলতান",
+      "subtitle": "সুলতানের রাজকীয় অমৃত",
+      "description": "উষ্ণ অ্যাম্বার রেজিন, চন্দন কাঠ, উড এবং মসলার এক রাজকীয় ও রহস্যময় সংমিশ্রণ। এটি আপনার ত্বকের নিজস্ব উপাদানের সাথে মানিয়ে নিয়ে এক মোহনীয় সুবাসের সৃষ্টি করে।",
+      "notes": "টপ: এলাচ, বারগামট | হার্ট: কাশ্মীরি জাফরান, সাদা উদ | বেস: অ্যাম্বার রেজিন, মাদাগাস্কার ভ্যানিলা, কস্তুরী"
+    },
+    "tags": ["Spicy", "Complex", "Seductive"],
+    "is_bestseller": false
+  },
+  {
+    "id": "prod_4",
+    "name": "Mitti Attar",
+    "arabic_name": "عطر الطين",
+    "price": 129,
+    "rating": 4.9,
+    "size": "12ml (1 Tola)",
+    "category": "Earthy",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.raahiparfums.com%2Fcdn%2Fshop%2Ffiles%2FMH6A2535.jpg%3Fv%3D1715146228%26width%3D1445&f=1&nofb=1&ipt=be94a255e6189d9925295be678df74de55879134f28da5244662a0c85033f3d6",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&q=80",
+      "https://images.unsplash.com/photo-1547887537-6158d64c35b3?w=500&q=80",
+      "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=500&q=80"
+    ],
+    "en": {
+      "title": "Mitti Attar",
+      "subtitle": "Scent of the Sacred Monsoon Rain",
+      "description": "Precious baked earthen clay distilled gently into pure sandalwood oil over three weeks. Captures the nostalgic, earthy, petrichor aroma that arises when the first monsoon drops bless parched soil.",
+      "notes": "Top: Damp Earth, Summer Rain | Heart: Baked Clay, Terracotta | Base: Aged Mysore Sandalwood Oil"
+    },
+    "bn": {
+      "title": "মিত্তি আতর",
+      "subtitle": "প্রথম বৃষ্টির স্পর্শে পোড়া মাটির সুবাস",
+      "description": "তপ্ত শুকিয়ে যাওয়া মাটির বুকে প্রথম কণা বৃষ্টির সুবাস। বিশেষ পদ্ধতিতে বেকড করা পোড়ামাটির তপ্ত বাষ্প খাঁটি চন্দন তেলের মধ্যে তিন সপ্তাহ ধরে সুচারুভাবে পাতন করে এই অপার্থিব আতর প্রস্তুত করা হয়।",
+      "notes": "টপ: ভেজা মাটি, গ্রীষ্মের প্রথম বৃষ্টি | হার্ট: পোড়ামাটির ঘ্রাণ, টেরাকোটা | বেস: মহীশূর চন্দন তেল"
+    },
+    "tags": ["Earthy", "Poetic", "Sandalwood"],
+    "is_bestseller": false
+  },
+  {
+    "id": "prod_5",
+    "name": "Amber Al Qasr",
+    "arabic_name": "عنبر القصر",
+    "price": 159,
+    "rating": 4.7,
+    "size": "12ml (1 Tola)",
+    "category": "Amber",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.alqasrperfumes.com%2Fcdn%2Fshop%2Ffiles%2FC142BEAE-E052-4580-BAEF-592FA19F3A94-scaled_6b073356-a3e1-4bbb-98d5-6bd2b1574e9b.jpg%3Fv%3D1741286434%26width%3D1500&f=1&nofb=1&ipt=625b0c121171feacb3972bfa350e28eff9fce431c41a30f65133bac4865abd76",
+    "gallery": [
+      "https://images.unsplash.com/photo-1528740561666-bd2479db0830?w=500&q=80",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&q=80",
+      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=500&q=80"
+    ],
+    "en": {
+      "title": "Amber Al Qasr",
+      "subtitle": "Palace Resinous Accord",
+      "description": "Rich golden amber crystals liquefied under ancient distillation methods. Infused with soft suede, sweet tobacco leaves, and dry cedarwood, it provides a warm and secure olfactory fortress around you.",
+      "notes": "Top: Sweet Tobacco, Incense | Heart: Golden Amber Crystals, Labdanum | Base: Rich Suede, Cedarwood"
+    },
+    "bn": {
+      "title": "অ্যাম্বার আল কাসর",
+      "subtitle": "রাজপ্রাসাদের সোনালী অ্যাম্বার",
+      "description": "প্রাচীন পাতন প্রক্রিয়ার অধীনে সোনালী অ্যাম্বার স্ফটিককে তরল রূপ দেওয়া। নরম চামড়ার সুবাস এবং মিষ্টি তামাকের পাতার ছোঁয়ায় তৈরি এই আতরটি আপনার চারপাশে এক উষ্ণ ও মনোরম অনুভূতি সৃষ্টি করবে।",
+      "notes": "টপ: মিষ্টি তামাক পাতা, ধূপের কণা | হার্ট: সোনালী অ্যাম্বার ক্রিস্টাল, লাবডানাম | বেস: চামড়ার নির্যাস, সিডারউড"
+    },
+    "tags": ["Warm", "Amber", "Incense"],
+    "is_bestseller": false
+  },
+  {
+    "id": "prod_6",
+    "name": "Musk Ghazal",
+    "arabic_name": "مسك الغزال الملكي",
+    "price": 279,
+    "rating": 5.0,
+    "size": "12ml (1 Tola)",
+    "category": "Musky",
+    "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&q=80",
+      "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=500&q=80",
+      "https://images.unsplash.com/photo-1547887537-6158d64c35b3?w=500&q=80"
+    ],
+    "en": {
+      "title": "Musk Ghazal",
+      "subtitle": "Royal Deer Ambergris Musk",
+      "description": "A dark, complex, animalic masterpiece of warm deer musk notes layered on amber infusion. Thick, velvet-like in texture, and deeply sensual, it has been the choice of kings for luxury and power.",
+      "notes": "Top: Black Saffron, Spices | Heart: Crimson Rose, White Musk | Base: Royal Deer Musk, Marine Ambergris"
+    },
+    "bn": {
+      "title": "মুস্ক গজল",
+      "subtitle": "কস্তুরী ও অ্যাম্বারগ্রিস মহাকাব্য",
+      "description": "কম ঘনত্বের মখমলের মতো জমিনযুক্ত কালো কস্তুরী গন্ধ এবং সমুদ্র অ্যাম্বার মহাকাব্যিক সংমিশ্রণ। এটি শতাব্দীর বীরত্বের আখ্যান ও রাজকীয় ক্ষমতার পরিচয় বহনকারী আভিজাত্যের প্রতীক।",
+      "notes": "টপ: কালো জাফরান, বিরল মশলা | হার্ট: রক্তিম গোলাপ, ধবধবে সাদা মুস্ক | বেস: রাজকীয় কস্তুরী নির্যাস, সামুদ্রিক অ্যাম্বারগ্রিস"
+    },
+    "tags": ["Musk", "Animalic", "Intense"],
+    "is_bestseller": true
+  }
+]

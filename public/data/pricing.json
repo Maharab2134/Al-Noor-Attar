@@ -1,0 +1,83 @@
+[
+  {
+    "id": "price_1",
+    "name": "Majestic Miniature Trio",
+    "price": 89,
+    "size": "3 x 3ml Vials",
+    "popular": false,
+    "en": {
+      "desc": "An elegant introduction to our primary distillations, containing trial decants of our most well-known scents.",
+      "features": [
+        "3 Signature Miniature Vials (3ml each)",
+        "Includes Ward Taifi, Amber Al Qasr, Mitti Attar",
+        "Classic Linen Wrapped Gift Container",
+        "Scent Advisor Digital Consultation Card",
+        "Free Domestic Express Delivery"
+      ]
+    },
+    "bn": {
+      "desc": "আমাদের প্রাথমিক সুবাসগুলোর সাথে একটি রাজকীয় কুশল বিনিময়, যা আমাদের ৩টি বিশ্বখ্যাত সেরা সুগন্ধির ট্রায়াল মিনি প্যাক সরবরাহ করে।",
+      "features": [
+        "৩টি সিগনেচার মিনি বোতল (৩ মিলি প্রতিটি)",
+        "ওয়ার্দ তায়েফ, অ্যাম্বার আল কাসর এবং মিত্তি আতর",
+        "শণের রেশমি গিফট বাক্সে মোড়ানো প্যাক",
+        "ডিজিটাল সুগন্ধি নির্ধারণী গাইড কার্ড",
+        "ফ্রি এক্সপ্রেস কুরিয়ার ডেলিভারি"
+      ]
+    }
+  },
+  {
+    "id": "price_2",
+    "name": "Sultan's Signature Trio",
+    "price": 189,
+    "size": "3 x 6ml Decants",
+    "popular": true,
+    "en": {
+      "desc": "The quintessential Al Noor lifestyle set. Highly favored by enthusiasts seeking premium projection across days.",
+      "features": [
+        "3 Sumpteous Decant Bottles (6ml each)",
+        "Dehn Al Oud Amiri, Ward Taifi, Mukhallat",
+        "Hand-carved Mahogany Keepsake Drawer",
+        "24k Gold-leaf Accent Pipettes",
+        "Premium Tracked Global Courier Delivery"
+      ]
+    },
+    "bn": {
+      "desc": "আল নূরের আদর্শ সুগন্ধ সেট। যারা দিনে দিনে রাজকীয় গভীরতার প্রক্ষেপণ চান তাদের সর্বোচ্চ পছন্দের সবচেয়ে কাঙ্ক্ষিত প্যাকেজ।",
+      "features": [
+        "৩টি পূর্ণ সিগনেচার বোতল (৬ মিলি প্রতিটি)",
+        "দেহন আল উদ আমিরি, ওয়ার্দ তায়েফ ও মুখাল্লাত",
+        "হাতে খোদাইকৃত মেহগনি রাজকীয় কাঠের বাক্স",
+        "২৪ ক্যারেট লিকুইড গোল্ড-লিফ নিষ্কাশন পাইপেট",
+        "ফ্রি বিশেষ বৈশ্বিক দ্রুতগামী কুরিয়ার ও ট্র্যাকিং"
+      ]
+    }
+  },
+  {
+    "id": "price_3",
+    "name": "Imperial Private Vault",
+    "price": 459,
+    "size": "6 x 12ml Full Tolas",
+    "popular": false,
+    "en": {
+      "desc": "The supreme fragrance vault containing full-size representations of our entire flagship collection, aging-curated.",
+      "features": [
+        "6 Masterpiece Crystal Tolas (12ml each)",
+        "Full collection including rare Musk Ghazal",
+        "Hand-stitched Leather Chest with Arabic Calligraphy",
+        "Personalized Solid Brass Engraved Nameplate",
+        "Lifetime Member Club Access & 15% VIP discount"
+      ]
+    },
+    "bn": {
+      "desc": "সম্পূর্ণ রাজকীয় ও সেরা ঘ্রাণের স্থায়ী সংরক্ষণশালা, যাতে অত্যন্ত যত্নে পুরোনো ও পরিপক্ক ফ্ল্যাগশিপের সম্পূর্ণ তোলাগুলো অন্তর্ভুক্ত।",
+      "features": [
+        "৬টি মাস্টারপিস ক্রিস্টাল তোলা বোতল (১২ মিলি প্রতিটি)",
+        "বিরল মুস্ক গজলসহ আমাদের সম্পূর্ণ খাঁটি সংগ্রহ",
+        "হাতে সেলাই করা চামড়ার রাজকীয় ট্রাঙ্ক ও আরবি ক্যালিগ্রাফি",
+        "আপনার নামে খোদাইকৃত সলিড বাসের পিতল নেমপ্লেট",
+        "আজীবন এলিট ইন-মেম্বারশিপ ক্লাব কার্ড ও ১৫% ভিআইপি ছাড়"
+      ]
+    }
+  }
+]
