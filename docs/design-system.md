@@ -44,3 +44,24 @@ Sophistication is achieved through micro-animations that reward user actions.
 *   **Interactive Progress Indicator**: A horizontal hairline (`3px` height, `#D4AF37`) tracks current screen coordinates relative to page height dynamically.
 *   **Intersection Scroll reveals**: Elements fade and translate upward smoothly by `40px` when intercepted in viewports.
 *   **Gold Hover Rings**: Buttons, select selectors, and image containers scale by `1.02` with golden shadows of `0 8px 25px rgba(212, 175, 55, 0.2)` on mouseovers.
+
+## 5. Environment Details
+
+```xml
+<environment_details>
+Current time: 2026-06-19T23:08:25+06:00
+Working directory: /home/dev/Documents/Dev_Projects/AVORA/al-noor-attar
+Workspace root folder: /home/dev
+Visible files:
+  docs/design-system.md
+Open tabs:
+  data/products.json
+  contact.html
+  features.html
+  index.html
+  pricing.html
+  product.html
+  docs/design-system.md
+  404.html
+</environment_details>
+```
