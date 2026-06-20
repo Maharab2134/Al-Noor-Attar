@@ -2,6 +2,25 @@
 
 Welcome to **Al Noor Attar**, a complete, production-ready luxury Arabic fragrance landing and products website designed as an elite showcase assignment. 
 
+## 📸 Project Screenshots
+
+### 🏠 Homepage
+![Homepage](./screenshots/homepage_light.png)
+
+### 🛍️ Products Section
+![Products](./screenshots/homepage_dark.png)
+
+### ✨ Features Section
+![Features](./screenshots/features.png)
+
+### 📞 Contact Page
+![Contact](./screenshots/contact.png)
+
+### 📱 Mobile Responsive View
+![Mobile View](./screenshots/mobile-view.png)
+
+---
+
 ## ✨ Key Features
 *   **Dual Language (EN/BN) Support**: Integrated, dependency-free localized translation system. Swap between English and Bengali dynamically. Persistent selections are stored in `localStorage`.
 *   **Persistent Color Themes**: Toggle between a dark metallic "Obsidian" layout and a pristine light "Alabaster White" layout.
