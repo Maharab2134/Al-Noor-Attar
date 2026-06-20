@@ -4,11 +4,11 @@ Welcome to **Al Noor Attar**, a complete, production-ready luxury Arabic fragran
 
 ## 📸 Project Screenshots
 
-### 🏠 Homepage
+### 🏠 Homepage Light
 ![Homepage](./screenshots/homepage_light.png)
 
-### 🛍️ Products Section
-![Products](./screenshots/homepage_dark.png)
+### 🏠 Homepage Dark
+![Homepage](./screenshots/homepage_dark.png)
 
 ### ✨ Features Section
 ![Features](./screenshots/features.png)
